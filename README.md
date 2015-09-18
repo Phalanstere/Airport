@@ -7,7 +7,7 @@
 - An elegant Airport font effects
 
 
-##<a href="http://burckhardt.ludicmedia/AllesNichts">Demo</a>##
+##<a href="http://burckhardt.ludicmedia.de/AllesNichts">Demo</a>##
 
 
 ## Installation:
