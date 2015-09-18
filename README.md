@@ -46,13 +46,13 @@ Then you define the parameters and invoke the object
 	var d = new Airport.Display(obj);
 ```	
 
-The **div** parameter refers to the id of the dom elemnents
-The **textlist** parameter refers to the string array
-The **speed** parameter - the duration of the change (in seconds)
-The **speed_variation** parameter - to humanize the effect, a random factor between 0 and 1
-The **delay** parameter - delay before the effect takes place
-The **timeout** parameter - timeout, before the next item in the array gets processed,
-The **offset** parameter - offset betwenn the indvidual letters (in pixels)
+* The **div** parameter refers to the id of the dom elemnents
+* The **textlist** parameter refers to the string array
+* The **speed** parameter - the duration of the change (in seconds)
+* The **speed_variation** parameter - to humanize the effect, a random factor between 0 and 1
+* The **delay** parameter - delay before the effect takes place
+* The **timeout** parameter - timeout, before the next item in the array gets processed,
+* The **offset** parameter - offset betwenn the indvidual letters (in pixels)
 
 
 
