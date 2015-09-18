@@ -4,7 +4,7 @@
 
 ## Features:
 
-- An elegant Airport font effects
+- An elegant Airport font effect
 
 
 ##<a href="http://burckhardt.ludicmedia.de/AllesNichts">Demo</a>##
