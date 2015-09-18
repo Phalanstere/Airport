@@ -6,11 +6,65 @@
 <title>Airport</title>
 </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald|Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300' rel='stylesheet' type='text/css'>
+
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+ <script src="lib/Airport.js"></script>
+<link rel="stylesheet" type="text/css" href="css/Airport.css">
+
+<script>
+
+	$( document ).ready(function() {
+	
+	
+	var list = ["Boole und die Formel", "Im Dark Room der Geschichte", "God is a DJ", "Alles wird Schrift", "Unendliche Potenz", "Hydra" , "Draculas Vermächtnis", "Kernspaltung", "Pandemie", "Im Arbeitsspeicher"]; 
+	
+	var obj = { 
+			  div: "Airport",
+			  textlist: list,	
+			  speed: 1.6,  // in seconds
+			  speed_variation: 0.12, 
+			  delay: 0.1,	
+			  timeout: 6200, // in milliseconds
+			  percentage: 1, 
+			  offset: 63, 
+			  };
+	
+	
+	var d = new Airport.Display(obj);
+	/*
+	var list2 = ["Offenbarung", "Apokalypse der Zeichen", "Im Maschinenraum", "Digitale Plagen", "Das neue Jerusalem", "Genesis 2.0", "Vertreibung ins Paradies", "Die Welt der Engel", "Welt ohne Jenseits"]
+	
+	
+	var obj = { 
+			  div: "Airport2",
+			  style: "Airport2",
+			  textlist: list2,	
+			  speed: 2.0,  // in seconds
+			  speed_variation: 0.12, 
+			  delay: 0.2,	
+			  timeout: 8000, // in milliseconds
+			  percentage: 0.82,  
+			  offset: 73,
+			  };
+	
+	
+	var d = new Airport.Display(obj);
+	*/
+	});
+
+
+</script>
+
+
 <body>
 
-<!-- Invisible comment -->
 
-<p>Airport font effect</p>
+<div id = "Airport">Airport font effect</div>
 
 </body>
 
