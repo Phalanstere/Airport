@@ -7,11 +7,6 @@
 - An elegant Airport font effects
 
 
-## Getting Started
-
-Create a quiz on on the [QAlity Frontend](http://qality.philipp-burckhardt.com/),
-grab the created JavaScript object and insert on your page via one of the following options.
-
 ## Installation:
 
 #### CDN
@@ -24,14 +19,14 @@ Include the following two lines in your `head` and you are ready to go:
 <link rel="stylesheet" type="text/css" href="css/Airport.css">
 
 
-To create an Airport object you first define an array of strings, like this_
+To create an Airport object you first define an array of strings, like this:
 
 ```
 var list = ["Boole", "Babbage", "Jacquard", "Frege"]; 
 	
 ```
 
-To render your own quiz, replace the first argument passed to the `QAlity` function.  
+Then you create an objct:  
 
 #### npm
 
